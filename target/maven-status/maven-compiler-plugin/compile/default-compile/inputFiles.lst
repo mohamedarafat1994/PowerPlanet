@@ -1,0 +1,9 @@
+/Users/arafat/Downloads/assessment/src/main/java/com/thecollective/security/MyBasicAuthenticationEntryPoint.java
+/Users/arafat/Downloads/assessment/src/main/java/com/thecollective/model/PowerPlanet.java
+/Users/arafat/Downloads/assessment/src/main/java/com/thecollective/repository/PowerPlanetRepository.java
+/Users/arafat/Downloads/assessment/src/main/java/com/thecollective/service/PowerPlanetService.java
+/Users/arafat/Downloads/assessment/src/main/java/com/thecollective/controller/PowerPlanetController.java
+/Users/arafat/Downloads/assessment/src/main/java/com/thecollective/exception/RecordNotFoundException.java
+/Users/arafat/Downloads/assessment/src/main/java/com/thecollective/security/MultipleAuthProvidersSecurityConfig.java
+/Users/arafat/Downloads/assessment/src/main/java/com/thecollective/PowerPlanet.java
+/Users/arafat/Downloads/assessment/src/main/java/com/thecollective/security/PowerPlanetAuthenticationProvider.java

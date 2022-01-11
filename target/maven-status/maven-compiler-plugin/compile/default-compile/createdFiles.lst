@@ -1,0 +1,9 @@
+com/thecollective/exception/RecordNotFoundException.class
+com/thecollective/security/MyBasicAuthenticationEntryPoint.class
+com/thecollective/service/PowerPlanetService.class
+com/thecollective/controller/PowerPlanetController.class
+com/thecollective/repository/PowerPlanetRepository.class
+com/thecollective/security/PowerPlanetAuthenticationProvider.class
+com/thecollective/model/PowerPlanet.class
+com/thecollective/security/MultipleAuthProvidersSecurityConfig.class
+com/thecollective/PowerPlanet.class
