@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "020deb56-897a-4faf-a11d-2776b22a4cf2",
+		"name": "PowerPlanet - Assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "list all",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/powerplanet/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"powerplanet",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get power planet by sequence id",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/powerplanet",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"powerplanet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list paginated power planet filtered by locationCode",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/powerplanet/locationcode?code=&page=3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"powerplanet",
+						"locationcode"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": ""
+						},
+						{
+							"key": "page",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get generatedAmt by locationCode",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "password",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/powerplanet/getgenerationbylocation?code=AI",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"powerplanet",
+						"getgenerationbylocation"
+					],
+					"query": [
+						{
+							"key": "code",
+							"value": "AI"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
